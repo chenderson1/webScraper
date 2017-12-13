@@ -1,0 +1,25 @@
+{
+  "name": "webScraper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chenderson1/webScraper.git"
+  },
+  "keywords": [],
+  "author": "Racer-X",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chenderson1/webScraper/issues"
+  },
+  "dependencies" : {
+    "express"    : "latest",
+    "request"    : "latest",
+    "cheerio"    : "latest"
+  },
+  "homepage": "https://github.com/chenderson1/webScraper#readme"
+}
