@@ -8,7 +8,7 @@ const express = require('express'),
 
 var url = 'https://www.reddit.com/r/warriors/'
 
-return request(url, (error, response, html) => {
+request(url, (error, response, html) => {
     if (!error) {
         var count = 0
         var currentdate = new Date()
